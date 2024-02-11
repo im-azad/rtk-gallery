@@ -9,12 +9,17 @@ export default function Videos() {
     // decide what to render
     let content = null;
 
-    if (isLoading) content = <VideoLoader />;
+    if (isLoading)
+        content = (
+            <>
+                <VideoLoader /> <VideoLoader /> <VideoLoader /> <VideoLoader />
+            </>
+        );
     if (!isLoading && isError) content = <Error />;
     if (!isLoading && !isError && videos?.length === 0)
         content = <div>No videos found</div>;
     if (!isLoading && !isError && videos?.length > 0) {
-        content = videos.map((video) => <Video key={video.id} {...video} />);
+        content = videos.map((video) => <Video key={video.id} video={video} />);
     }
 
     return content;
