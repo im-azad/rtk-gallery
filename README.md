@@ -1,8 +1,30 @@
-# React + Vite
+# 🎬 React Video Gallery App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Video Gallery application built with **React 18**, **Redux Toolkit (RTK)**, and **React Router**.  
+This project demonstrates scalable state management, routing, and clean project structure using Vite.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
+
+- ⚛️ React 18
+- 🧠 Redux Toolkit (@reduxjs/toolkit)
+- 🔗 React Redux
+- 🛣 React Router DOM v6
+- ⚡ Vite
+- 🎨 Tailwind CSS
+- 🧹 ESLint
+
+---
+
+## 📦 Features
+
+- Display video gallery
+- Video details page
+- Global state management using Redux Toolkit
+- Client-side routing
+- Clean and scalable folder structure
+- Responsive UI with Tailwind CSS
+
+---
+
